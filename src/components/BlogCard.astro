@@ -6,7 +6,7 @@ export interface Props {
   url: string | undefined;
 }
 let { title, description, pubDate, url } = Astro.props;
-const shortDate = new Date(pubDate).toLocaleDateString("en", {
+const shortDate = new Date(pubDate).toLocaleDateString("pl", {
   dateStyle: "short",
 });
 url = url + "/";

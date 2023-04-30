@@ -1,7 +1,7 @@
 ---
 import { Picture } from "@astrojs/image/components";
 interface Props {
-  src: string;
+  src: string | ImageMetadata;
   alt: string;
   loading?: "lazy" | "eager";
 }
