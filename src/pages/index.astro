@@ -20,12 +20,12 @@ blogs = blogs.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Dat
 ---
 
 <Layout {...metadata}>
-  <section class="flex flex-col sm:flex-row justify-evenly items-center py-6 gap-2">
+  <section class="flex flex-col sm:flex-row justify-evenly items-center py-4 gap-2">
     <div class="w-full">
       <BlogImage src={HeroBlob} alt="Hero"/>
     </div>
     <header class="max-w-md sm:order-first">
-      <h1 class="text-2xl sm:text-3xl font-bold mb-7 md:mb-5 text-center sm:text-left">Webski development 😎</h1>
+      <h1 class="text-3xl sm:text-6xl font-bold mb-7 md:mb-5 text-center sm:text-left">Webski development</h1>
       <p class="text-black dark:text-zinc-300 mb-5">Siema, jestem Piotr i na codzień robie frontendy. Tutaj dziele się swoim kodem, pomysłami i przemyśleniami na temat programowanka.</p>
     </header>
   </section>
